@@ -131,7 +131,15 @@ public class IntArrayList implements IntList {
 
     @Override
     public IntList subList(int fromIndex, int toIndex) {
+        int q = toIndex - fromIndex+100;
+        int[] newArr = new int[q];
+        for(int i = fromIndex; i<toIndex; i++){
+            System.out.println(arr[i]);
 
+            newArr[i-fromIndex]=arr[i];
+
+            System.out.println(newArr[i-fromIndex]);
+        }
 
 
         return null;

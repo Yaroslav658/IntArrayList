@@ -27,21 +27,22 @@ public class Test {
 
         System.out.println("size: "+myList.size());
 
+        myList.subList(1,6);
 
 
-
-
-        myList.set(18,77);
-        System.out.println(myList.toString());
 //
-        System.out.println( myList.get(19));
-        System.out.println(myList.toString());
+//        myList.set(18,77);
+//        System.out.println(myList.toString());
+////
+//        System.out.println( myList.get(19));
+//        System.out.println(myList.toString());
+////
+////
+////
+//        myList.clear();
+//        System.out.println(myList.toString());
 //
 //
-//
-        myList.clear();
-        System.out.println(myList.toString());
-
 
 
 
